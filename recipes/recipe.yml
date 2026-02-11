@@ -31,9 +31,11 @@ modules:
         - chezmoi
         - cliphist
         - ddcutil
+        - dialog
         - eog
         - fastfetch
         - fira-code-fonts
+        - freerdp
         - gnome-calculator
         - gnome-clocks
         - gnome-text-editor
@@ -44,6 +46,7 @@ modules:
         - mediawriter
         - mpv
         - niri
+        - nmap-ncat
         - noctalia-shell
         - papers
         - python3-pip
