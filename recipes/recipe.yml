@@ -36,9 +36,9 @@ modules:
         - fastfetch
         - fira-code-fonts
         - freerdp
+        - gedit
         - gnome-calculator
         - gnome-clocks
-        - gnome-text-editor
         - gparted
         - ImageMagick
         - kitty
