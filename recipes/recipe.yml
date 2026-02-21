@@ -40,6 +40,7 @@ modules:
         - gnome-clocks
         - gparted
         - ImageMagick
+        - jetbrainsmono-nerd-fonts
         - kitty
         - libvirt
         - mediawriter
