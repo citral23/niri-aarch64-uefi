@@ -20,10 +20,14 @@ modules:
       files:
         - https://pkgs.tailscale.com/stable/fedora/tailscale.repo
         - https://github.com/terrapkg/subatomic-repos/raw/main/terra.repo
+        - https://brave-browser-rpm-release.s3.brave.com/brave-browser.repo
+      keys:
+        - https://brave-browser-rpm-release.s3.brave.com/brave-core.asc
       copr:
         - avengemedia/danklinux
     install:
       packages:
+        - brave-origin
         - brightnessctl
         - btop
         - cava
