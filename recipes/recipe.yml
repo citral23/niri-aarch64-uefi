@@ -38,6 +38,9 @@ modules:
         - dialog
         - eog
         - fastfetch
+        - fex-emu 
+        - fex-emu-rootfs-fedora 
+        - fex-emu-thunks
         - fira-code-fonts
         - freerdp
         - gnome-calculator
@@ -46,7 +49,6 @@ modules:
         - ImageMagick
         - jetbrainsmono-nerd-fonts
         - kitty
-        - libvirt
         - mediawriter
         - mpv
         - niri
@@ -60,7 +62,6 @@ modules:
         - tailscale
         - telnet
         - vim
-        - virt-manager
         - vulkan-tools
         - wayvnc
         - wlsunset
