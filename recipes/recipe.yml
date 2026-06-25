@@ -97,7 +97,6 @@ modules:
     system:
       enabled:
         - tailscaled
-        - libvirtd
         - sshd
 
   - type: kargs
