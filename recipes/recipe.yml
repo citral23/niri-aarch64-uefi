@@ -39,8 +39,6 @@ modules:
         - eog
         - fastfetch
         - fex-emu 
-        - fex-emu-rootfs-fedora 
-        - fex-emu-thunks
         - fira-code-fonts
         - freerdp
         - gnome-calculator
