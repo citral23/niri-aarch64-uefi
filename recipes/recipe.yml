@@ -101,4 +101,4 @@ modules:
 
   - type: kargs
     kargs:
-      - split_lock_detect=off
+      - mitigations=off
