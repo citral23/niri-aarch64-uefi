@@ -1,4 +1,10 @@
-# BlueBuild Template &nbsp; [![bluebuild build badge](https://github.com/blue-build/template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
+Niri desktop for the FriendlyElec NanopPC T6 LTS with UEFI (https://github.com/edk2-porting/edk2-rk3588)
+
+Not intended for public use as I'll likely break your workflow to suit mine now and then but you can take inspiration and build your own:
+
+Follow https://blue-build.org/ doc to create the repo, upload your recipe.yaml and switch the action runner to a local arm64 machine you own
+
+# niri-arch64-uefi &nbsp; [![bluebuild build badge](https://github.com/citral23/niri-arch64-uefi/actions/workflows/build.yml/badge.svg)](https://github.com/citral23/niri-arch64-uefi/actions/workflows/build.yml)
 
 See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
 
@@ -13,7 +19,7 @@ To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/blue-build/template:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/citral23/niri-arch64-uefi:latest
   ```
 - Reboot to complete the rebase:
   ```
@@ -21,7 +27,7 @@ To rebase an existing atomic Fedora installation to the latest build:
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/blue-build/template:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/citral23/niri-arch64-uefi:latest
   ```
 - Reboot again to complete the installation
   ```
@@ -39,5 +45,5 @@ If build on Fedora Atomic, you can generate an offline ISO with the instructions
 These images are signed with [Sigstore](https://www.sigstore.dev/)'s [cosign](https://github.com/sigstore/cosign). You can verify the signature by downloading the `cosign.pub` file from this repo and running the following command:
 
 ```bash
-cosign verify --key cosign.pub ghcr.io/blue-build/template
+cosign verify --key cosign.pub ghcr.io/citral23/niri-arch64-uefi
 ```
