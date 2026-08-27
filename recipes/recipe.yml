@@ -83,11 +83,11 @@ modules:
         - tuned-ppd
         - uupd
         - v4l-utils
-        - vim
         - vulkan-tools
         - wayvnc
         - wlsunset
         - xdotool
+        - xfce-polkit
         - xwininfo
         - yad
         - yazi
