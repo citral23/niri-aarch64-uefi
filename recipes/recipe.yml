@@ -70,7 +70,7 @@ modules:
         - niri
         - nmap-ncat
         - noctalia
-        - noctalia-nightly
+        - noctalia-greeter
         - openvpn-otp
         - papers
         - powertop
