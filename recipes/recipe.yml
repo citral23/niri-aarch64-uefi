@@ -69,7 +69,7 @@ modules:
         - NetworkManager-openvpn
         - niri
         - nmap-ncat
-        - noctalia-greeter
+        - noctalia
         - noctalia-nightly
         - openvpn-otp
         - papers
